@@ -1,11 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Iceland&family=Six+Caps&display=swap');
+
+
 *{
     margin: 0;
     padding: 0;
     list-style: none;
     text-decoration: none;
 }
+:root{
+ 
+    --font-primary: "Oswald",sans-serif;
+    
+    --cor-primary: #6e6e6e;
+    --cor-secundary: #FFFFFF;
+    --cor-tertiary: #fd7b02;
+}
 
 ::selection {
     color : #FFFFFF;
     background: #232526;
+}
+
+header{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+}
+
+.img-wrapper{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 1);
+}
+
+.img-wrapper img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.25;
+    animation: zoom 30s;
+}
+
+@keyframes zoom {
+    0%{
+        transform: scale(1.6);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+
+.banner{
+    position: absolute;
+    top: 15%;
+    left: 15%;
+}
+
+.banner h1{
+    color: white;
+    font-size: 3rem;
+    font-weight: 300;
+    font-style: normal;
+    font-family: var(--font-primary);
+    text-rendering: optimizeLegibility;
+    text-shadow: .2rem .3rem 2px rgba(0, 0, 0, 0.733);
+    line-height: 3.5rem;
+    letter-spacing: 1px;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+}
+
+.banner h2{
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 700;
+    font-style: normal;
+    font-family: var(--font-primary);
+    font-weight: 300;
+    text-rendering: optimizeLegibility;
+    text-shadow: .2rem .3rem 2px rgba(0, 0, 0, 0.4);
+    line-height: 3.5rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.data{
+    position: absolute;
+    top: 33%;
+    left: 0px;
+}
+
+.data {
+    color: var(--cor-secundary);
+    font-size: 1.5rem;
+    font-weight: 700;
+    font-style: normal;
+    font-family: Iceland, arial;;
+    line-height: 1.9rem;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.data span{
+    color: var(--cor-tertiary);
 }
