@@ -6,7 +6,7 @@
 </div>
 
 <div align="center">
-  <img src="https://media.discordapp.net/attachments/891064071326162944/891064103773294592/Web_interestelar.png?width=972&height=479" width=90%>
+  <img src="https://media.discordapp.net/attachments/891064071326162944/891069993700192306/Web_interestelar.png?width=974&height=480" width=90%>
 </div>
 
 ---
@@ -36,4 +36,4 @@ The purpose of this site is to demonstrate the difference in the passage of time
 
 Ruan Pezzin Miniguite
 
-[![NPM](https://img.shields.io/cocoapods/l/m?down_color=292929&up_color=292929&style=for-the-badge)]("")
+[![NPM](https://img.shields.io/cocoapods/l/m?down_color=292929&up_color=292929&style=for-the-badge)]("https://github.com/RuanMiniguite/interstellar-relativity/blob/db30681607fdb5ed9bfd66d4a7336c811eaabc6a/LICENSE")
