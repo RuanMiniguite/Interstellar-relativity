@@ -41,12 +41,12 @@ header{
     height: 100%;
     object-fit: cover;
     opacity: 0.25;
-    animation: zoom 30s;
+    animation: zoom 50s;
 }
 
 @keyframes zoom {
     0%{
-        transform: scale(1.6);
+        transform: scale(1.7);
     }
     100%{
         transform: scale(1);

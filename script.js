@@ -25,3 +25,5 @@ async function tempD(){
 
 tempD()
 setInterval(tempD, 1000)
+
+document.oncontextmenu = document.body.oncontextmenu = function() {return false;}
