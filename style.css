@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Iceland&family=Six+Caps&display=swap');
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css");
 
 *{
     margin: 0;
@@ -134,4 +135,23 @@ header{
 .disclaimer{
     color: var(--cor-tertiary);
     padding-top: 1rem;
+}
+
+.git{
+    position: absolute;
+    left: auto;
+    top: auto;
+    right: 0;
+    bottom: 0;
+}
+
+.git a{
+    color: var(--cor-tertiary);
+    font-size:1.5rem;
+    justify-content: center;
+    transition: color 0.3s;
+}
+
+.git a:hover{
+    color: #FFFFFF;
 }
