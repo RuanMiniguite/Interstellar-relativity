@@ -88,7 +88,7 @@ header{
 
 .data{
     position: absolute;
-    top: 33%;
+    top: 27%;
     left: 0px;
 }
 
@@ -97,7 +97,7 @@ header{
     font-size: 1.5rem;
     font-weight: 700;
     font-style: normal;
-    font-family: Iceland, arial;;
+    font-family: Iceland, arial;
     line-height: 1.9rem;
     letter-spacing: 4px;
     text-transform: uppercase;
@@ -113,4 +113,25 @@ header{
     color: var(--cor-tertiary);  
     float: right;
     padding-left: 15px;
+}
+
+.description{
+    position: absolute;
+    bottom: 4%;
+    left: 15%;
+    width: 70%;
+
+    color: var(--cor-secundary);
+    font-size: 0.9rem;
+    font-weight: 700;
+    font-style: normal;
+    font-family: Iceland, arial;
+    line-height: 1.2rem;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    text-align: justify;
+}
+.disclaimer{
+    color: var(--cor-tertiary);
+    padding-top: 1rem;
 }

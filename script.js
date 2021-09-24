@@ -3,7 +3,7 @@ async function tempD(){
     var dateIni = new Date('2000-06-16 06:00')
     var dateEarth = new Date() 
 
-    var secondEarth = ((dateEarth - dateIni) / 1000).toFixed()
+    var secondEarth = ((dateEarth.getTime() - dateIni.getTime()) / 1000).toFixed()
     var secondMiller = (secondEarth / 3679200).toFixed()
 
     console.log(secondEarth)
