@@ -36,4 +36,4 @@ The purpose of this site is to demonstrate the difference in the passage of time
 
 Ruan Pezzin Miniguite
 
-[![NPM](https://img.shields.io/cocoapods/l/m?down_color=292929&up_color=292929&style=for-the-badge)]("https://github.com/RuanMiniguite/interstellar-relativity/blob/db30681607fdb5ed9bfd66d4a7336c811eaabc6a/LICENSE")
+[![NPM](https://img.shields.io/cocoapods/l/m?down_color=292929&up_color=292929&style=for-the-badge)](https://github.com/RuanMiniguite/interstellar-relativity/blob/db30681607fdb5ed9bfd66d4a7336c811eaabc6a/LICENSE)
