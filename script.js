@@ -27,3 +27,16 @@ tempD()
 setInterval(tempD, 1000)
 
 document.oncontextmenu = document.body.oncontextmenu = function() {return false;}
+
+// Miller		Terra
+// 1h 	== 	7a
+// 1h 	== 	61320h
+// 60m	==	3679200m
+// 3600s	== 	220752000s
+
+// 3600s ==  220752000
+// 1s    ==  x
+
+// 220772000 / 3600
+// 61320
+
