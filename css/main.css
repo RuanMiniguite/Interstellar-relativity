@@ -30,7 +30,7 @@
 }
 
 body {
-    background-image: url("img/Fundo.jpg");
+    background-image: url("/img/Fundo.jpg");
     background-size: cover; 
     background-color: #1e2122; 
     width: 100vw;
