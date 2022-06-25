@@ -1,58 +1,52 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <title>Temporal dilation</title>
-    
-    <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    
-    <link rel="stylesheet" href="style.css">
-    <link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png">
-    <link rel="manifest" href="/site.webmanifest">
-</head>
-<body>
-
-    <header>
-        <div class="img-wrapper">
-            <img src="/img/Fundo.jpg" alt="">
+    <head>
+        <title>Temporal dilation</title>
+        
+        <meta charset='utf-8'>
+        <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+        <meta name='viewport' content='width=device-width, initial-scale=1'>
+        
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/responsivo.css">
+        <link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png">
+        <link rel="manifest" href="/site.webmanifest">
+    </head>
+    <body>
+        <div class="container">
+            <header>
+                <h1>Temporal dilation between Earth and Miller</h1>
+                <input placeholder="Data Inicial" type="datetime-local" name="date" id="date" value='2000-06-06T12:00:00'>
+            </header>
+            <main>
+                <div class="earth">
+                    <h1>Elapsed time Earth</h1>
+                    Earth seconds: <span id="earths"></span><br>
+                    Earth minutes: <span id="earthm"></span><br>
+                    Earth hours: <span id="earthh"></span><br>
+                    Earth days: <span id="earthd"></span><br>
+                    Earth years: <span id="eartha"></span><br>
+                </div>
+                <div class="miller">
+                    <h1>Elapsed time Miller</h1>
+                    Miller seconds: <span id="millers"></span><br>
+                    Miller minutes: <span id="millerm"></span><br>
+                    Miller hours: <span id="millerh"></span><br>
+                    Miller days: <span id="millerd"></span><br>
+                    Miller years: <span id="millera"></span><br>
+                </div>  
+            </main>
+            <footer>
+                <p>The purpose of this site is to demonstrate the difference in the passage of time between our planet and Miller's planet featured in the interstellar film, portraying Temporal dilation.</p>
+                <p id="disclaimer">*Approximate time | Select the date</p>
+                <div class="git">
+                    <a href="https://github.com/RuanMiniguite" target="_blank"><i class="fab fa-github"></i></a>
+                </div>
+            </footer>
         </div>
-        <div class="banner">
-            <h1>Temporal dilation between Earth and Miller</h1>
-            <h2>Since June 16, 2000</h2>
-        </div>
-        <div class="data">
-            <div class="earth">
-                Earth second: <span id="earths"></span><br>
-                Earth minutes: <span id="earthm"></span><br>
-                Earth hours: <span id="earthh"></span><br>
-                Earth days: <span id="earthd"></span><br>
-                Earth years: <span id="eartha"></span><br>
-            </div>
-            <div class="miller">
-                Miller second: <span id="millers"></span><br>
-                Miller minutes: <span id="millerm"></span><br>
-                Miller hours: <span id="millerh"></span><br>
-                Miller days: <span id="millerd"></span><br>
-                Miller years: <span id="millera"></span><br>
-            </div>    
-        </div>
-        <div class="description">
-            <p>
-                The purpose of this site is to demonstrate the difference in the passage of time between our planet and Miller's planet featured in the interstellar film, portraying Temporal dilation.
-            </p>
-            <p class="disclaimer">
-                *Approximate time.
-            </p>
-
-            <!-- GIT -->
-            <div class="git">
-                <a href="https://github.com/RuanMiniguite" target="_blank"><i class="fab fa-github"></i></a>
-            </div>
-        </div>
-    </header>
-</body>
-<script src='script.js'></script>
+    </body>
+    <script src='script.js'></script>
 </html>
