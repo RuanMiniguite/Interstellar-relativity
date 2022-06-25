@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Iceland&family=Six+Caps&display=swap');
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css");
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+:root{
+    --font-primary: "Oswald",sans-serif;
+    --font-secondary: "Iceland",cursive;
+    
+    --cor-primary: #6e6e6e;
+    --cor-secundary: #FFFFFF;
+    --cor-tertiary: #fd7b02;
+}
+
+::selection {
+    color : #FFFFFF;
+    background: #232526;
+}
+
+.container{
+    background-color: rgba(8, 8, 8, 0.74);
+    overflow: hidden;
+}
+
+body {
+    background: url("/img/Fundo.jpg");
+    background-size: cover; 
+    background-color: #1e2122; 
+    background-size: cover; 
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+#bg{
+    width: 100vw;
+    height: 100vh;
+    overflow: none;
+}
+
+header{
+    padding-top: 5vh;
+    height: 25vh;
+}
+
+main{
+    display: flex;
+    height: calc(100vh - 40vh);
+    width: 100vw;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 60px;
+}
+
+footer{
+    height: 15vh;
+}
