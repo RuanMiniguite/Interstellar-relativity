@@ -30,17 +30,13 @@
   main{
     padding-top: 5px;
     flex-direction: column;
-    margin-bottom: 10px;
+    height: 70vh;
   }
 
   .earth, 
   .miller{
     width: 70vw;
     align-self: center;
-  }
-
-  footer{
-    margin-top: 10px;
   }
 }
 
@@ -51,23 +47,5 @@
     letter-spacing: 3px;
     font-size: 1.1rem;
     width: 90vw;
-  }
-}
-
-@media only screen and (max-height: 445px){
-  .container{
-    overflow: scroll;
-  }
-  
-  main{
-    margin-top: 80px;
-  }
-
-  .miller{
-    margin-top: 10px;
-  }
-  
-  footer{
-    margin-top: 80px;
   }
 }
