@@ -1,0 +1,105 @@
+header h1{
+  color: var(--cor-secundary);
+  font-size: 3rem;
+  font-weight: 300;
+  font-style: normal;
+  font-family: var(--font-primary);
+  text-shadow: .2rem .3rem 2px rgba(0, 0, 0, 0.733);
+  line-height: 3.5rem;
+  letter-spacing: 1px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 3vh;
+}
+
+#date{
+  width: 220px;
+  height: 40px;
+  font-family: var(--font-primary);
+  font-size: 0.9rem;
+  letter-spacing: 4px;
+  color: var(--cor-tertiary);
+  background-color: #23252600;
+  border: none;
+  margin-left: calc(50% - (220px / 2));
+  padding: 10px;
+  outline-color: var(--cor-tertiary);
+  outline-style: solid;
+  outline-width: 1px;
+}
+
+input[type="datetime-local"]::-webkit-calendar-picker-indicator {
+  background-color: var(--cor-tertiary);
+}
+
+#date:focus{
+  outline-color: var(--cor-secundary);
+}
+
+.earth, 
+.miller{
+  color: var(--cor-secundary);
+  font-size: 1.5rem;
+  font-weight: 700;
+  font-style: normal;
+  font-family: Iceland, arial;
+  line-height: 1.9rem;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  text-align: left;
+  padding: 15px;
+  height: 230px;
+  border-radius: 2px;
+}
+
+.earth h1,
+.miller h1{
+  font-size: 2rem;
+  text-align: center;
+  text-shadow: .2rem .3rem 2px rgba(0, 0, 0, 0.733);
+  margin-bottom: 15px;
+}
+
+.earth span,
+.miller span{
+  width: auto;
+  color: var(--cor-tertiary);  
+  float: right;
+  padding-left: 15px;
+}
+
+footer p{
+  width: 70%;
+  margin-left: calc(50% - (70% / 2));
+  color: var(--cor-secundary);
+  font-size: 0.9rem;
+  font-weight: 700;
+  font-style: normal;
+  font-family: var(--font-secondary);
+  line-height: 1.2rem;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  text-align: justify;
+}
+
+#disclaimer{
+  color: var(--cor-tertiary);
+  padding-top: 1rem;
+}
+
+.git{
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+}
+
+.git a{
+  color: var(--cor-tertiary);
+  font-size:2rem;
+  justify-content: center;
+  transition: color 0.3s;
+}
+
+.git a:hover{
+  color: #FFFFFF;
+}
