@@ -50,7 +50,7 @@
 <div align="center">
   <img src="/assets/Web_interestelar.png" alt="Print" width=90% ><br><br>
 
-  <!-- [![Site][Site-shields]][Site-link] -->
+  [![Site][Site-shields]][Site-link]
 </div>
 
 <p>The purpose of this site is to demonstrate the difference in the passage of time between our planet and Miller's planet featured in the interstellar film, portraying Temporal dilation.</p>
@@ -123,7 +123,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 <!-- ============== LINKs ============== -->
 <!-- Alterar link -->
-[Site-link]: https://github.com/RuanMiniguite/Interstellar-relativity
+[Site-link]: https://ruanminiguite.github.io/Interstellar-relativity/
 [GitHub License-link]: https://github.com/RuanMiniguite/Interstellar-relativity/blob/e87affeb87f1152a97f9d3ba827613010428b6a6/LICENSE
 
 <!-- Alterar caminho para repositorio [Template-Readme] -->
