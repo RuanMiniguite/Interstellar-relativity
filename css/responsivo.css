@@ -1,0 +1,65 @@
+@media only screen and (max-width: 950px){
+  header{
+    height: 30vh;
+  }
+
+  main{
+    height: calc(100vh - 45vh);
+  }
+
+  header h1{
+    padding: 0 15px;
+  }
+
+  .earth, 
+  .miller{
+    font-size: 1.3rem;
+  }
+}
+
+@media only screen and (max-width: 780px){
+  .container{
+    overflow: scroll;
+  }
+  
+  header{
+    padding-top: 2vh;
+  }
+
+  
+  main{
+    padding-top: 5px;
+    flex-direction: column;
+    margin-bottom: 10px;
+  }
+
+  .earth, 
+  .miller{
+    width: 70vw;
+    align-self: center;
+  }
+
+  footer{
+    margin-top: 10px;
+  }
+}
+
+
+@media only screen and (max-width: 550px){
+  .earth, 
+  .miller{
+    letter-spacing: 3px;
+    font-size: 1.1rem;
+    width: 90vw;
+  }
+}
+
+@media only screen and (max-height: 845px){
+  main{
+    margin-top: 80px;
+  }
+  
+  footer{
+    margin-top: 80px;
+  }
+}
