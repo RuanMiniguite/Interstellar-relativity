@@ -1,42 +1,29 @@
 async function tempD(){
+
+    let dateEarth = new Date();
+    let dateUser = document.querySelector('input[type="datetime-local"]');
+
+    let dateIni = new Date(dateUser.value);
     
-    var dateIni = new Date('2000-06-16 06:00')
-    var dateEarth = new Date() 
+    // console.log('USER: ' + dateIni);
+    // console.log('EARTH: ' + dateEarth);
 
-    var secondEarth = ((dateEarth.getTime() - dateIni.getTime()) / 1000).toFixed()
-    var secondMiller = (secondEarth / 61320).toFixed()
+    let secondEarth = ((dateEarth.getTime() - dateIni.getTime()) / 1000).toFixed();
+    let secondMiller = (secondEarth / 61320).toFixed();
 
-    console.log(secondEarth)
-    console.log(secondMiller)
+    document.getElementById('earths').textContent = secondEarth;
+    document.getElementById('earthm').textContent = (secondEarth / 60).toFixed();
+    document.getElementById('earthh').textContent = ((secondEarth / 60) / 60).toFixed();
+    document.getElementById('earthd').textContent = (((secondEarth / 60) / 60) / 24).toFixed();
+    document.getElementById('eartha').textContent = ((((secondEarth / 60) / 60) / 24) / 365).toFixed();
 
-    document.getElementById('earths').textContent = secondEarth
-    document.getElementById('earthm').textContent = (secondEarth / 60).toFixed()
-    document.getElementById('earthh').textContent = ((secondEarth / 60) / 60).toFixed()
-    document.getElementById('earthd').textContent = (((secondEarth / 60) / 60) / 24).toFixed()
-    document.getElementById('eartha').textContent = ((((secondEarth / 60) / 60) / 24) / 365).toFixed()
-
-    document.getElementById('millers').textContent = secondMiller
-    document.getElementById('millerm').textContent = (secondMiller / 60).toFixed()
-    document.getElementById('millerh').textContent = ((secondMiller / 60) / 60).toFixed()
-    document.getElementById('millerd').textContent = (((secondMiller / 60) / 60) / 24).toFixed()
-    document.getElementById('millera').textContent = ((((secondMiller / 60) / 60) / 24) / 365).toFixed()
+    document.getElementById('millers').textContent = secondMiller;
+    document.getElementById('millerm').textContent = (secondMiller / 60).toFixed();
+    document.getElementById('millerh').textContent = ((secondMiller / 60) / 60).toFixed();
+    document.getElementById('millerd').textContent = (((secondMiller / 60) / 60) / 24).toFixed();
+    document.getElementById('millera').textContent = ((((secondMiller / 60) / 60) / 24) / 365).toFixed();
 
 }
 
-tempD()
-setInterval(tempD, 1000)
-
-document.oncontextmenu = document.body.oncontextmenu = function() {return false;}
-
-// Miller		Terra
-// 1h 	== 	7a
-// 1h 	== 	61320h
-// 60m	==	3679200m
-// 3600s	== 	220752000s
-
-// 3600s ==  220752000
-// 1s    ==  x
-
-// 220772000 / 3600
-// 61320
-
+tempD();
+setInterval(tempD, 1000);
