@@ -54,7 +54,11 @@
   }
 }
 
-@media only screen and (max-height: 845px){
+@media only screen and (max-height: 445px){
+  .container{
+    overflow: scroll;
+  }
+  
   main{
     margin-top: 80px;
   }
