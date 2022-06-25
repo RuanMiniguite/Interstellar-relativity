@@ -30,7 +30,7 @@
 }
 
 body {
-    background-image: url("/img/Fundo.jpg");
+    background-image: url("https://github.com/RuanMiniguite/Interstellar-relativity/blob/9e773cf103d97826c575c745ad945272c074ef42/img/Fundo.jpg");
     background-size: cover; 
     background-color: #1e2122; 
     width: 100vw;
